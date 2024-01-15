@@ -42,6 +42,7 @@ h2 {
 p {
   color: rgba(10, 0, 57, 0.64);
   font-weight: 400;
+  margin-bottom: 2.8rem;
 }
 
 a {
@@ -76,6 +77,31 @@ span {
   font-weight: 800;
   line-height: 8rem;
   letter-spacing: -0.2rem;
-  /* width: 8rem; */
-  text-wrap: wrap;
+}
+
+/* media queries */
+
+@media (min-width: 40em) {
+  body {
+    padding: 8rem;
+  }
+  main {
+    max-width: 102rem;
+    display: flex;
+    gap: 10rem;
+  }
+
+  div {
+    max-width: 48.5rem;
+  }
+
+  h1 {
+    margin-bottom: 3rem;
+  }
+
+  li {
+    gap: 5.3rem;
+    max-width: 42.5rem;
+    align-items: center;
+  }
 }
